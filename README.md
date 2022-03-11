@@ -7,7 +7,29 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
-## About Laravel
+## Pré-requisitos
+<ul>
+<li>PHP 7.1 ou superior</li>  
+<li>Composer</li>
+<li>Laravel >= 6 </li>
+<li>Postman</li>
+</ul>
+
+## API
+
+CRUD
+<ul>
+    <li>GET /api/produtos retornará todos os produtos e aceitará solicitações GET</li>  
+    <li>GET /api/produtos/{id} retornará um registro de produtos fazendo referência a seu id e aceitando solicitações GET.</li>
+    <li>POST /api/produtos criará um novo registro de produtos e aceitará solicitações POST.</li>
+    <li>PUT /api/produtos/{id} atualizará um registro existente de produtos fazendo referência a seu id e aceitando solicitações PUT</li>
+    <li>DELETE /api/produtos/{id} excluirá um registro de produtos fazendo referência a seu id e aceitando solicitações DELETE.</li>
+</ul>
+
+##Para simplificação do Projeto
+
+
+ About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
